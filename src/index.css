@@ -1,13 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+html,body,#app { height:100%; margin: 0; padding: 0;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+background: #eee;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  white-space: nowrap;
+  height:100%;
+}
+ul {
+  list-style-type: none; padding: 0;
+  margin: 0;
+  }  
+
+.list {
+  width: 33%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  padding: 0 20px;
+  overflow: auto;
+}
+.list:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 99%;
+  background: linear-gradient(to bottom, #eee 0%, #ccc 50%, #eee 100%);
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  width: 100%;
+  padding: 10px 10px 10px 15px;
+  margin: 0 0 10px 0;
+  overflow: auto;
+  border: 1px solid #e5e5df;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgb(0, 0, 0, 0.25);
+}
+.card-title {
+  font-weight: bold;
+  border-bottom: solid 5px transparent;
+}
+.card-title:before {
+  display: inline-block;
+  width: 1em;
+  content: '➡';
+}
+.card-title-is-open::before {
+  content: '⬇️';
+}
+.checklist-task:first-child {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: dashed 1px #ddd;
+}
+.checklist-task-remove::after {
+  display: inline-block;
+  color: #d66;
+  content: "+";
 }
