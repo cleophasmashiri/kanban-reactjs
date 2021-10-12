@@ -1,4 +1,4 @@
-# Reactjs Challenge: Kanban 
+# Reactjs Challenges: Kanban 
 
 **Try the challenges on your own first before clicking on my solutions ➡️**. Challenges is a better strategy to master coding subject like reactjs, if you just read it, it may appear a tougher thing to understand. If you wanted to learn how to ride a bycycle, and if you read books on how to ride one, you would never be able to ride until you actually got on one. Mastering coding is very similar to riding bycycles, I hope you will find my challenges approach beneficial.  
 <br>
