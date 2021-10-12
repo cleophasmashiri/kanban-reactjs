@@ -1,7 +1,9 @@
 # Reactjs Challenges: Kanban 
 
-**Try the challenges on your own first before clicking on my solutions ➡️**. Challenges is a better strategy to master coding subject like reactjs, if you just read it, it may appear a tougher thing to understand. If you wanted to learn how to ride a bycycle, and if you read books on how to ride one, you would never be able to ride until you actually got on one. Mastering coding is very similar to riding bycycles, I hope you will find my challenges approach beneficial.  
+**Try the challenges on your own first before clicking on my solutions ➡️**. Challenges is a better strategy to master coding subject like reactjs, if you just read it, it may appear a tougher thing to understand. If you wanted to learn how to ride a bycycle, and if you read books on how to ride one, you would never be able to ride until you actually got on one. Mastering coding is very similar to riding bycycles, I hope you will find my challenges approach beneficial. If you interested in a more detailed and theoretical aspects of reactjs, have a look at this [book](https://www.amazon.com/dp/B01JCPQJ0I/ref=cm_sw_em_r_mt_dp_QK8RRBS6CV6ATSWDVKJ2), my code challenges derive from this.
+
 <br>
+
 
 ## Challenge 1: Setup Kanban application.
 Assuming you have computer that meets the prerequisites for creating a reactja app, create a new react app.  
