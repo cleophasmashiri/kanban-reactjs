@@ -123,7 +123,7 @@ ul {
 <br>
 
   
-### Challenge 3a: Create component KanbanBoard.
+### Challenge 3.1: Create component KanbanBoard.
 
 <details>
   <summary>My solution...</summary>
@@ -164,7 +164,7 @@ export default KanbanBoard;
 
 <br>
   
-### Challenge 3b: Create List component.
+### Challenge 3.2: Create List component.
 
 <details>
   <summary>My solution...</summary>
@@ -203,7 +203,7 @@ export default List;
 
 <br>
   
-### Challenge 3c: Create Card component.
+### Challenge 3.3: Create Card component.
 
 <details>
   <summary>My solution...</summary>
@@ -238,7 +238,7 @@ export default Card;
 
 <br>
 
-### Challenge 3d: Create Checklist component.
+### Challenge 3.4: Create Checklist component.
 
 <details>
   <summary>My solution...</summary>
@@ -276,7 +276,7 @@ export default Checklist;
 <br>
 
 
-### Challenge 3e: Add <KanbanBoard /> to App.tsx. 
+### Challenge 3.5: Add KanbanBoard to home page. 
 
 <details>
   <summary>My solution...</summary>
@@ -323,15 +323,34 @@ export default App;
 
 ```
 
-</p>
-
-</details>
-
-<br>
-
 In the project directory, you can run:
 
 ```
  npm start
 
 ```
+</p>
+
+</details>
+
+<br>
+
+
+### Challenge 3.6: State manegement.
+
+<details>
+  <summary>My solution...</summary>
+  <p>
+
+```
+
+
+```
+
+</p>
+
+</details>
+
+<br>
+
+

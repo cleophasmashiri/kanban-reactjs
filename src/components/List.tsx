@@ -3,10 +3,8 @@ import Card from './Card';
 
 class List extends Component {
     
-    constructor(private title: string, private cards: any[], public props: any) {
+    constructor( public props: any) {
         super(props);
-        this.title = title;
-        this.cards = cards;
     }
 
     render(): any {
